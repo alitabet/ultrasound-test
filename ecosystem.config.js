@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'http://ec2-13-58-174-10.us-east-2.compute.amazonaws.com',
+      host: 'ec2-13-58-174-10.us-east-2.compute.amazonaws.com',
       key: '~/.ssh/ultrasound-key.pem',
       ref: 'origin/master',
       repo: 'git@github.com:alitabet/ultrasound-test.git',
