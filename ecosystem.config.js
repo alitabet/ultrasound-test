@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'ultrasound-aws',
-    script: './index.js'
+    script: './server.js'
   }],
   deploy: {
     production: {
